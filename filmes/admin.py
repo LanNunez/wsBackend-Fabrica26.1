@@ -1,6 +1,8 @@
 from django.contrib import admin
-from .models import Filme, Genero, Avaliacao
+from .models import Filme
 
-admin.site.register(Filme)
-admin.site.register(Genero)
-admin.site.register(Avaliacao)
+@admin.register(Filme)
+class FilmeAdmin(admin.ModelAdmin):
+    list_display = ('titulo', 'ano', 'nota_media')
+    search_fields = ('titulo',)
+    list_filter = ('ano',)
