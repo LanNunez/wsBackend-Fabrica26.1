@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Criar Filme</title>
+</head>
+<body>
+
+    <h1>Cadastrar Filme</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <label>Título:</label><br>
+        <input type="text" name="titulo"><br><br>
+
+        <label>Descrição:</label><br>
+        <textarea name="descricao"></textarea><br><br>
+
+        <label>Ano:</label><br>
+        <input type="number" name="ano"><br><br>
+
+        <label>Duração:</label><br>
+        <input type="number" name="duracao"><br><br>
+
+        <label>Nota:</label><br>
+        <input type="number" step="0.1" name="nota_media"><br><br>
+
+        <label>Poster URL:</label><br>
+        <input type="text" name="poster_url"><br><br>
+
+        <label>Gêneros:</label><br>
+        {% for genero in generos %}
+            <input type="checkbox" name="generos" value="{{ genero.id }}">
+            {{ genero.nome }}<br>
+        {% endfor %}
+
+        <br>
+        <button type="submit">Salvar</button>
+    </form>
+
+</body>
+</html>
