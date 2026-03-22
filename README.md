@@ -232,8 +232,35 @@ filmes/
 - Paginação na listagem
 - Filtros avançados
 
-### 👨‍💻 Autor
+## 📸 Demonstração da Interface
+
+### 🎥 Listagem de Filmes
+![Lista de Filmes](assets/screenshots/lista-filme.jpg)
+
+---
+
+### ➕ Cadastro de Filme
+![Criar Filme](assets/screenshots/criar-filme.jpg)
+
+---
+
+### 🔍 Detalhes do Filme
+![Detalhe Filme](assets/screenshots/detalhe-filme.jpg)
+
+---
+
+### ✏️ Edição de Filme
+![Editar Filme](assets/screenshots/editar-filme.jpg)
+
+---
+
+### 🗑️ Exclusão de Filme
+![Excluir Filme](assets/screenshots/excluir-filme.jpg)
+
+---
+
+## 👨‍💻 Autor
 Desenvolvido por Arllan L.
 
-### 📄 Licença
+## 📄 Licença
 Projeto desenvolvido para fins educacionais e processo seletivo.
