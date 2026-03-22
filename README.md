@@ -260,7 +260,7 @@ filmes/
 ---
 
 ## 👨‍💻 Autor
-Desenvolvido por Arllan L.
+Desenvolvido por Arllan Leopoldino Nunes.
 
 ## 📄 Licença
 Projeto desenvolvido para fins educacionais e processo seletivo.
